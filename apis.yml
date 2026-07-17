@@ -1,0 +1,27 @@
+aid: fbg-capital
+name: FBG Capital
+description: 'FBG Capital is a company surfaced as a portfolio company of polychain and added to the API
+  Evangelist network as a stub for enrichment. Sector: investment. This profile is a lead awaiting the
+  enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/fbg-capital/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- polychain
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Investment
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://fbg.capital
