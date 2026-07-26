@@ -1,8 +1,25 @@
 aid: fbg-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fbg-capital.png
 name: FBG Capital
-description: 'FBG Capital is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: investment. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'FBG Capital is a digital asset management firm operating in blockchain-based capital
+  markets, founded in 2015 by Vincent Zhou. One of the earliest and largest blockchain-focused
+  investment firms in Asia, FBG runs a venture arm that backs early-stage blockchain and Web3
+  startups and a trading/asset-management arm active across cryptocurrency markets. Its portfolio
+  spans DeFi, Layer-1 and Layer-2 protocols, gaming, metaverse, and infrastructure projects
+  (Terra, NEAR, Livepeer, Filecoin, Maple, Origin Protocol, Zilliqa, and many others). FBG Capital
+  publishes no public API, developer portal, or SDKs; this profile tracks the firm as a
+  company/investor node in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/fbg-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Investment
+- Venture Capital
+- Blockchain
+- Cryptocurrency
+- Digital Assets
+- Web3
+- DeFi
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fbg-capital-domain-security.yml
 - type: Website
   url: https://fbg.capital
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fbgcapital
+- type: Contact
+  url: mailto:media@fbg.capital
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
